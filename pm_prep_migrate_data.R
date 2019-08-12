@@ -56,4 +56,12 @@ migrate.dat$cartesian_y <- polar2cart(0,0,
 migrate.dat$azimuth_y <- sin(migrate.dat$bearing)
 migrate.dat$azimuth_x <- cos(migrate.dat$bearing)
 
+# EXPORT FINAL DATA SET FOR ANALYSIS --------------------------------------
+
+write.table(migrate.dat, 
+            "data/migrate_direction_data.csv",
+            sep = ",",
+            row.name = FALSE,
+            col.names = TRUE)
+
 # END OF FILE -------------------------------------------------------------
