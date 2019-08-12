@@ -34,8 +34,6 @@ windowsFonts(A=windowsFont("Arial Black"),
 
 # PLOT MOVEMENT DIRECTION -------------------------------------------------
 
-dat <- raw.data
-
 # Plot direction RTSH ----
 plot(1, type='n', axes = TRUE, xlab="km", ylab="km",
      xlim = c(-300, 300), ylim = c(-300, 300), cex.axis = 1.2, cex.lab=1.2, las=1)
