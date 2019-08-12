@@ -34,7 +34,7 @@ raw.data <- read.table("data/pm_dat.csv", # From pm_prep_data.R
                        stringsAsFactors = FALSE,
                        head = TRUE)
 
-migrate.dat <- read.table("data/migrate_data.csv", 
+migrate.dat <- read.table("data/migrate_direction_data.csv", 
                        sep=",",
                        dec=".",
                        na.strings="NA",
