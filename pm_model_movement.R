@@ -6,10 +6,10 @@
 
 # This script first develops a binomial model of fish movement using a 
 # long-term mark-recapture data set to investigate the probability of 
-# wide-ranging movement. The script then develops a gaussian model of 
+# wide-ranging movement. The script then develops a Gaussian model of 
 # wide-ranging movement to investigate direction of movement. The only
 # requirement is to set the working directory, which should include a 
-# sub-folder called: 'data'
+# sub-folder called 'data', containing a data set called 'pm_dat.csv'.
 
 # SETUP -------------------------------------------------------------------
 
