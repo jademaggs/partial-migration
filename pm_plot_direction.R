@@ -19,7 +19,7 @@ rm(list = ls())
 setwd("c:/.../")
 
 # Read in dataset
-migrate.dat <- read.table("data/migrate_data.csv", 
+migrate.dat <- read.table("data/migrate_direction_data.csv", 
                        sep=",",
                        dec=".",
                        na.strings="NA",
