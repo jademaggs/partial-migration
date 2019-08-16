@@ -16,7 +16,7 @@
 rm(list = ls())
 
 # Set working directory
-setwd("c:/Users/jademaggs/Google Drive/Publications/PhD_partial_migration/github/")
+setwd("c:/.../")
 
 # Read in dataset
 migrate.dat <- read.table("data/migrate_direction_data.csv", 
